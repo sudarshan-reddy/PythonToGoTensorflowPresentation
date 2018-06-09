@@ -81,7 +81,7 @@ Note: Give a two minute crash course. Feedforward / Feedback. Train and Predict.
 
 ---
 
-## <span style="font-family:Rockitt; font-weight:bold">The plan</span>
+## <span style="font-family:Rockitt; font-weight:bold">Things to take note</span>
 
 +++
 
@@ -103,8 +103,7 @@ Note: Give a two minute crash course. Feedforward / Feedback. Train and Predict.
 
 ## <span style="font-family:Rockitt; font-weight:bold">Training</span>
 
-
----
++++
 
 <span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Tensorflow for Go expects three extra parameters from a traditional Keras TF model</span> 
 
@@ -154,5 +153,47 @@ Note: Give a two minute crash course. Feedforward / Feedback. Train and Predict.
 
 +++
 
+---
+
+## <span style="font-family:Rockitt; font-weight:bold">Prediction</span>
+
++++
+
+<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Copy the graph file (extension .pb) to a common file location</span> 
+
++++
+
+<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Load the saved model that we trained with Keras and Tensorflow</span>
+
+```go
+    model, err := tf.LoadSavedModel("forGo", []string{"tags"}, nil)
+	if err != nil {
+		log.Fatal(err)
+	}
+```
+
++++
+
+<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">And run the call `Exec` on the model to make the prediction</span>
+
+```go
+    result, err := model.Session.Run(
+		map[tf.Output]*tf.Tensor{
+			model.Graph.Operation("input_1").Output(0): img,
+		},
+		[]tf.Output{
+			model.Graph.Operation("inferenceLayer/Softmax").Output(0),
+		},
+		nil,
+	)
+```
+
+<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Note the explicit declaration of entry and exit layers</span>
+
++++
+
+---
+
+## <span style="font-family:Rockitt; font-weight:bold">That's it. Really!</span>
 
 ---
