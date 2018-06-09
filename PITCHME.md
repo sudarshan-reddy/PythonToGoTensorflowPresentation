@@ -106,51 +106,53 @@ Note: Give a two minute crash course. Feedforward / Feedback. Train and Predict.
 
 ---
 
+<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Tensorflow for Go expects three extra parameters from a traditional Keras TF model</span> 
+
++++
+
+<br>
+<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Tag Name</span> 
+<br>
+<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Input layer name</span> 
+<br>
+<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Inference layer name</span> 
+<br>
+
++++
+
+<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Setting the Tensorflow session to Keras enables us to use a tag when saving the graph</span> 
+
 ```python
+
+    import tensorflow as tf
+    from keras import backend as K
     sess = tf.Session()
     K.set_session(sess)
+```
++++
 
-    train_gen, val_gen = load_celeb_data(224, 224)
-    model = keras.applications.resnet50.ResNet50()
-    classes = train_gen.class_indices
+<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">My model is a finetune of pretrained ResNet50 weights. The input layer is `input_1`</span> 
     
-    model.layers.pop()
++++
 
-    for layer in model.layers:
-        layer.trainable = False
-    for layer in model.layers[:30]:
-        layer.trainable = True
-    last = model.layers[-1].output
-
+<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Name the inference layer</span> 
+```python
     x = Dense(len(classes), activation="softmax", name="inferenceLayer")(last)
+```
 
-    finetuned_model = Model(model.input, x)
++++
 
-    finetuned_model.compile(optimizer=Adam(lr=1e-04), loss='categorical_crossentropy', metrics=['accuracy'])
 
-    for c in list(train_gen.class_indices):
-        classes[train_gen.class_indices[c]] = c
-    finetuned_model.classes = classes
+<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">After training, save the model with a tag</span> 
 
-    for n in tf.get_default_graph().as_graph_def().node:
-        print(n.name)
-
-    early_stopping = EarlyStopping(patience=10)
-    checkpointer = ModelCheckpoint('resnet50_best.h5', verbose=1, save_best_only=True)
-
-    finetuned_model.fit_generator(train_gen, 
-                                  steps_per_epoch=100, epochs=1,
-                                  callbacks=[early_stopping, checkpointer],
-                                  validation_data=val_gen,
-                                  validation_steps=100
-                                 )
-    finetuned_model.save('resnet50_final.h5')
-
+```python
     builder = tf.saved_model.builder.SavedModelBuilder("forGo")
     builder.add_meta_graph_and_variables(sess, ["tags"])
     builder.save()
     sess.close()
 ```
+
++++
 
 
 ---
