@@ -1,5 +1,5 @@
-## Train with Python. Predict with Go. 
-##### <span style="font-family:Helvetica Neue; font-weight:bold"><span style="color:#e49436">Because we can have cake and eat it too</span></span>
+## Train with Python. <br> Predict with Go.  
+##### <span style="font-family:Helvetica Neue; font-weight:bold"><span style="color:#e49436">Making the most of the best of both worlds</span></span>
 
 ---
 
