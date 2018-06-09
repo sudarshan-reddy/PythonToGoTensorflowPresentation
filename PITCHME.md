@@ -194,6 +194,6 @@ Note: Give a two minute crash course. Feedforward / Feedback. Train and Predict.
 
 ---
 
-## <span style="font-family:Rockitt; font-weight:bold">That's it. Really!</span>
+<span style="font-family:Rockitt; font-weight:bold">That's it. Really!</span>
 
 ---
