@@ -159,7 +159,7 @@ Note: Give a two minute crash course. Feedforward / Feedback. Train and Predict.
 
 +++
 
-<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Copy the graph file (extension .pb) to a common file location</span> 
+<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Copy the graph folder to a common location</span> 
 
 +++
 
@@ -191,6 +191,18 @@ Note: Give a two minute crash course. Feedforward / Feedback. Train and Predict.
 <span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Note the explicit declaration of entry and exit layers</span>
 
 +++
+
+---
+
+## <span style="font-family:Rockitt; font-weight:bold">Plugs</span>
+
+<br>
+<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Blog: https://sudarshan-reddy.github.io/post/keras-to-go/ </span>
+<br>
+<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Training Code: https://github.com/sudarshan-reddy/resnetClassifier</span>
+<br>
+<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Prediction Code: https://github.com/sudarshan-reddy/resnetPredictor</span>
+<br>
 
 ---
 
