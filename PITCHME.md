@@ -203,6 +203,9 @@ Note: Give a two minute crash course. Feedforward / Feedback. Train and Predict.
 <br>
 <span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Prediction Code: https://github.com/sudarshan-reddy/resnetPredictor</span>
 <br>
+<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Library for Go: https://github.com/sudarshan-reddy/telemus
+</span>
+<br>
 
 ---
 
