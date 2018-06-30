@@ -55,6 +55,7 @@
 
 ## <span style="font-family:Rockitt; font-weight:bold">Request handling Benchmarks</span>
 
++++
 
 <span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Python + Flask</span> 
 <span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">16393 requests in 30s</span>
@@ -78,6 +79,56 @@
 
 <span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Go + Chi</span> 
 <span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">1550508 requests in 30s</span>
+
++++
+@title[Request handling benchmarks]
+
+<canvas class="stretch" data-chart="horizontalBar">
+<!--
+{
+ "data" : {
+  "labels" : ["Python + Flask", "Python + Twisted", "PyPy2.7 Python + Twisted",
+    "Node + Express", "Go + Chi"],
+  "datasets" : [{
+    "data": [16393, 102781, 379001, 268866, 1550508],
+    "backgroundColor": "#e49436",
+    "borderColor": "#e49436"
+  }]
+  },
+  "options": {
+    "title": {
+      "display": true,
+      "text": "Request handling benchmarks",
+      "fontColor": "gray",
+      "fontSize": 20
+    },
+    "legend": {
+      "display": false
+    },
+    "scales": {
+      "xAxes": [{
+        "ticks": {
+            "beginAtZero": true,
+            "max": 80,
+            "stepSize": 10,
+            "fontColor": "gray"
+        },
+        "scaleLabel": {
+          "display": true,
+          "labelString": "Respondents",
+          "fontColor": "gray"
+        }
+      }],
+      "yAxes": [{
+        "ticks": {
+            "fontColor": "gray"
+        }
+      }]
+    }
+  }
+}
+-->
+</canvas>
 
 ---
 
