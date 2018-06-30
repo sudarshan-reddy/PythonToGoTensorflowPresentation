@@ -134,20 +134,12 @@
 
 ## <span style="font-family:Rockitt; font-weight:bold">Things to take note</span>
 
-+++
 
 <span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Keras is a great library for beginners</span> 
-
-+++ 
-
+</br>
 <span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Tensorflow has bindings for both Go and Python</span> 
-
-+++
-
+</br>
 <span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Tensorflow graphs are language agnostic</span> 
-
-+++
-
 
 ---
 
@@ -166,14 +158,12 @@
 <span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Input layer name</span> 
 <br>
 <span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Inference layer name</span> 
-<br>
 
 +++
 
 <span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Setting the Tensorflow session to Keras enables us to use a tag when saving the graph</span> 
 
 ```python
-
     import tensorflow as tf
     from keras import backend as K
     sess = tf.Session()
