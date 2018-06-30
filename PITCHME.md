@@ -3,11 +3,6 @@
 
 ---
 
-## <span style="font-family:Rockitt; font-weight:bold">Deep Learning is popular</span>
-Note: Give a two minute crash course. Feedforward / Feedback. Train and Predict.
-
----
-
 ## <span style="font-family:Rockitt; font-weight:bold"> Why is Python good?</span>
 
 <br>
@@ -23,11 +18,11 @@ Note: Give a two minute crash course. Feedforward / Feedback. Train and Predict.
 
 ## <span style="font-family:Rockitt; font-weight:bold">Twin Discplines</span>
 
-<br>
-<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Training</span> 
-<br>
-<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Prediction</span> 
-<br>
+![before](assets/before.png)
+
+---
+
+![after](assets/after.png)
 
 --- 
 
@@ -59,23 +54,32 @@ Note: Give a two minute crash course. Feedforward / Feedback. Train and Predict.
 ---
 
 ## <span style="font-family:Rockitt; font-weight:bold">Request handling Benchmarks</span>
-```
-    1a. Go/Chi:
-    51684 Requests/sec => 1550508 requests in 30s
-    2. Sparkjava:
-    48631 Requests/sec => 1458768 requests in 30s
-    3a. PyPy2.7 Python + Twisted:
-    12633 Requests/sec => 379001 requests in 30s
-    3b. Python + Twisted:
-    3425 Requests/sec => 102781 requests in 30s
-    3c. Python + Flask:
-    11751 Requests/sec => 16393 requests in 30s 
-    4. Node + Express: 
-    8962 Requests/sec => 268866 requests in 30s
-```
+
+
+<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Python + Flask</span> 
+<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">16393 requests in 30s</span>
+
++++
+
+<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Python + Twisted</span> 
+<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">102781 requests in 30s</span>
+
++++
+
+<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">PyPy2.7 Python + Twisted</span> 
+<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">379001 requests in 30s</span>
+
++++
+
+<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Node + Express</span> 
+<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">268866 requests in 30s</span>
+
++++
+
+<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Go + Chi</span> 
+<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">1550508 requests in 30s</span>
 
 ---
-
 
 ## <span style="font-family:Rockitt; font-weight:bold">Proof of Concept</span>
 
