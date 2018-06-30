@@ -131,8 +131,7 @@
 ## <span style="font-family:Rockitt; font-weight:bold">Proof of Concept</span>
 
 +++
-
-![asciinema](https://asciinema.org/a/kVDQ7RhcMYnNrKblwjYldgUCe)
+[![demo](https://asciinema.org/a/kVDQ7RhcMYnNrKblwjYldgUCe.png)](https://asciinema.org/a/kVDQ7RhcMYnNrKblwjYldgUCe?autoplay=1)
 
 +++
 
