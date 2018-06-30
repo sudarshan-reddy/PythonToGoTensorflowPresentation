@@ -56,30 +56,25 @@
 ## <span style="font-family:Rockitt; font-weight:bold">Request handling Benchmarks</span>
 
 +++
-
 <span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Python + Flask</span> 
+</br>
 <span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">16393 requests in 30s</span>
-
 +++
-
 <span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Python + Twisted</span> 
+</br>
 <span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">102781 requests in 30s</span>
-
 +++
-
 <span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">PyPy2.7 Python + Twisted</span> 
+</br>
 <span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">379001 requests in 30s</span>
-
 +++
-
 <span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Node + Express</span> 
+</br>
 <span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">268866 requests in 30s</span>
-
 +++
-
 <span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Go + Chi</span> 
+</br>
 <span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">1550508 requests in 30s</span>
-
 +++
 @title[Request handling benchmarks]
 
