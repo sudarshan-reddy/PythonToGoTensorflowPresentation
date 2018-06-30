@@ -130,6 +130,12 @@
 
 ## <span style="font-family:Rockitt; font-weight:bold">Proof of Concept</span>
 
++++
+
+![asciinema](https://asciinema.org/a/kVDQ7RhcMYnNrKblwjYldgUCe)
+
++++
+
 ---
 
 ## <span style="font-family:Rockitt; font-weight:bold">Things to take note</span>
