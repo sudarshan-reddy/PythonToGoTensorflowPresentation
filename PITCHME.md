@@ -77,56 +77,6 @@
 <span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">1550508 requests in 30s</span>
 
 +++
-@title[Sample Bar Chart]
-
-<canvas class="stretch" data-chart="horizontalBar">
-<!--
-{
- "data" : {
-  "labels" : ["Grapefruit", "Orange", "Kiwi",
-    "Blackberry", "Banana",
-    "Blueberry"],
-  "datasets" : [{
-    "data": [48, 26, 59, 39, 21, 74],
-    "backgroundColor": "#e49436",
-    "borderColor": "#e49436"
-  }]
-  },
-  "options": {
-    "title": {
-      "display": true,
-      "text": "The most delicious fruit?",
-      "fontColor": "gray",
-      "fontSize": 20
-    },
-    "legend": {
-      "display": false
-    },
-    "scales": {
-      "xAxes": [{
-        "ticks": {
-            "beginAtZero": true,
-            "max": 80,
-            "stepSize": 10,
-            "fontColor": "gray"
-        },
-        "scaleLabel": {
-          "display": true,
-          "labelString": "Respondents",
-          "fontColor": "gray"
-        }
-      }],
-      "yAxes": [{
-        "ticks": {
-            "fontColor": "gray"
-        }
-      }]
-    }
-  }
-}
--->
-</canvas>
-+++
 @title[Request handling benchmarks]
 
 <canvas class="stretch" data-chart="horizontalBar">
@@ -155,13 +105,13 @@
       "xAxes": [{
         "ticks": {
             "beginAtZero": true,
-            "max": 80,
-            "stepSize": 10,
+            "max": 1600000,
+            "stepSize": 10000,
             "fontColor": "gray"
         },
         "scaleLabel": {
           "display": true,
-          "labelString": "Respondents",
+          "labelString": "Requests in 30s",
           "fontColor": "gray"
         }
       }],
