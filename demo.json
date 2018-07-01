@@ -1,0 +1,314 @@
+{
+  "version": 1,
+  "width": 80,
+  "height": 24,
+  "duration": 27.095946,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.021977,
+      "\u001b]0;sudarshan@sudarshan-desktop: ~/dev/go/src/github.com/sudarshan-reddy/genderserver\u0007\u001b[01;32msudarshan@sudarshan-desktop\u001b[00m:\u001b[01;34m~/dev/go/src/github.com/sudarshan-reddy/genderserver \r\u001b[00m$ "
+    ],
+    [
+      2.5,
+      "g"
+    ],
+    [
+      0.119023,
+      "o"
+    ],
+    [
+      0.191878,
+      " "
+    ],
+    [
+      0.080035,
+      "r"
+    ],
+    [
+      0.161068,
+      "u"
+    ],
+    [
+      0.087068,
+      "n"
+    ],
+    [
+      0.178273,
+      " "
+    ],
+    [
+      0.205585,
+      "m"
+    ],
+    [
+      0.09607,
+      "a"
+    ],
+    [
+      0.088404,
+      "i"
+    ],
+    [
+      0.07261,
+      "n"
+    ],
+    [
+      0.091707,
+      ".go "
+    ],
+    [
+      0.311141,
+      "d"
+    ],
+    [
+      0.102393,
+      "a"
+    ],
+    [
+      0.215938,
+      "lailama.jpg "
+    ],
+    [
+      0.518793,
+      "\r\n"
+    ],
+    [
+      0.539045,
+      "2018-07-01 09:05:41.294384: I tensorflow/cc/saved_model/loader.cc:242] Loading SavedModel with tags: { tags }; from: forGo\r\n"
+    ],
+    [
+      0.054784,
+      "2018-07-01 09:05:41.349171: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA\r\n"
+    ],
+    [
+      0.134809,
+      "2018-07-01 09:05:41.484009: I tensorflow/cc/saved_model/loader.cc:161] Restoring SavedModel bundle.\r\n"
+    ],
+    [
+      0.211451,
+      "2018-07-01 09:05:41.695446: I tensorflow/cc/saved_model/loader.cc:196] Running LegacyInitOp on SavedModel bundle.\r\n"
+    ],
+    [
+      0.011476,
+      "2018-07-01 09:05:41.706928: I tensorflow/cc/saved_model/loader.cc:291] SavedModel load for tags { tags }; Status: success. Took 412636 microseconds.\r\n"
+    ],
+    [
+      0.879248,
+      "[[0.99872845 0.0012714964]]\r\nmale\r\n"
+    ],
+    [
+      0.009651,
+      "\u001b]0;sudarshan@sudarshan-desktop: ~/dev/go/src/github.com/sudarshan-reddy/genderserver\u0007\u001b[01;32msudarshan@sudarshan-desktop\u001b[00m:\u001b[01;34m~/dev/go/src/github.com/sudarshan-reddy/genderserver \r\u001b[00m$ "
+    ],
+    [
+      2.5,
+      "\u001b[A\r(reverse-i-search)`': \u001b[K\r\n\r\u001b[K\u001b[A\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      0.221546,
+      "\b\b\b\u001b[30@g': go run main.go dalailama.jpg\b"
+    ],
+    [
+      0.112514,
+      "\r\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[1@o\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      0.248721,
+      "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\u001b[1@ \u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      0.135747,
+      "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\u001b[1@r\u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      0.382902,
+      "\b\b\b\u001b[1@u\u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      0.098298,
+      "\b\b\b\u001b[1@n\u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      0.208499,
+      "\b\b\b\u001b[1@ \u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      0.846849,
+      "\b\b\b\u001b[1@m\u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      0.118912,
+      "\b\b\b\u001b[1@a\u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      0.111253,
+      "\b\b\b\u001b[1@i\u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      0.074956,
+      "\b\b\b\u001b[1@n\u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      0.639944,
+      "\b\b\b\u001b[1@.\u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      0.166018,
+      "\b\b\b\u001b[1@g\u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      0.154034,
+      "\b\b\b\u001b[1@o\u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      1.141337,
+      "\b\b\b\u001b[1@ \u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      0.378573,
+      "\b\b\b\u001b[2Pe': go run main.go emili\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b"
+    ],
+    [
+      0.1413,
+      "\b\b\b\u001b[1@m\u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      0.136032,
+      "\b\b\b\u001b[1@i\u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      0.638345,
+      "\r\u001b]0;sudarshan@sudarshan-desktop: ~/dev/go/src/github.com/sudarshan-reddy/genderserver\u0007\u001b[01;32msudarshan@sudarshan-desktop\u001b[00m:\u001b[01;34m~/dev/go/src/github.com/sudarshan-reddy/genderserver \r\u001b[00m$ go run main.go emilia.jpg \r\u001b[C\u001b[C\r\n"
+    ],
+    [
+      0.282645,
+      "2018-07-01 09:05:52.251335: I tensorflow/cc/saved_model/loader.cc:242] Loading SavedModel with tags: { tags }; from: forGo\r\n"
+    ],
+    [
+      0.055188,
+      "2018-07-01 09:05:52.306523: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA\r\n"
+    ],
+    [
+      0.141491,
+      "2018-07-01 09:05:52.448017: I tensorflow/cc/saved_model/loader.cc:161] Restoring SavedModel bundle.\r\n"
+    ],
+    [
+      0.187247,
+      "2018-07-01 09:05:52.635274: I tensorflow/cc/saved_model/loader.cc:196] Running LegacyInitOp on SavedModel bundle.\r\n"
+    ],
+    [
+      0.011536,
+      "2018-07-01 09:05:52.646819: I tensorflow/cc/saved_model/loader.cc:291] SavedModel load for tags { tags }; Status: success. Took 395482 microseconds.\r\n"
+    ],
+    [
+      0.82966,
+      "[[0.007532305 0.9924677]]\r\nfemale\r\n"
+    ],
+    [
+      0.00932,
+      "\u001b]0;sudarshan@sudarshan-desktop: ~/dev/go/src/github.com/sudarshan-reddy/genderserver\u0007\u001b[01;32msudarshan@sudarshan-desktop\u001b[00m:\u001b[01;34m~/dev/go/src/github.com/sudarshan-reddy/genderserver \r\u001b[00m$ "
+    ],
+    [
+      2.5,
+      "g"
+    ],
+    [
+      0.119944,
+      "o"
+    ],
+    [
+      0.223864,
+      " "
+    ],
+    [
+      0.536236,
+      "r"
+    ],
+    [
+      0.127959,
+      "u"
+    ],
+    [
+      0.130408,
+      "n"
+    ],
+    [
+      0.654303,
+      " "
+    ],
+    [
+      0.279171,
+      "m"
+    ],
+    [
+      0.114413,
+      "a"
+    ],
+    [
+      0.126262,
+      "i"
+    ],
+    [
+      0.049839,
+      "n"
+    ],
+    [
+      0.104779,
+      ".go "
+    ],
+    [
+      0.852595,
+      "b"
+    ],
+    [
+      0.21694,
+      "r"
+    ],
+    [
+      0.103138,
+      "i"
+    ],
+    [
+      0.092906,
+      "enne.jpg "
+    ],
+    [
+      2.5,
+      "\r\n"
+    ],
+    [
+      0.295092,
+      "2018-07-01 09:06:06.931891: I tensorflow/cc/saved_model/loader.cc:242] Loading SavedModel with tags: { tags }; from: forGo\r\n"
+    ],
+    [
+      0.053024,
+      "2018-07-01 09:06:06.984912: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA\r\n"
+    ],
+    [
+      0.132875,
+      "2018-07-01 09:06:07.117808: I tensorflow/cc/saved_model/loader.cc:161] Restoring SavedModel bundle.\r\n"
+    ],
+    [
+      0.183726,
+      "2018-07-01 09:06:07.301525: I tensorflow/cc/saved_model/loader.cc:196] Running LegacyInitOp on SavedModel bundle.\r\n"
+    ],
+    [
+      0.012295,
+      "2018-07-01 09:06:07.313823: I tensorflow/cc/saved_model/loader.cc:291] SavedModel load for tags { tags }; Status: success. Took 381929 microseconds.\r\n"
+    ],
+    [
+      0.816528,
+      "[[0.4955928 0.50440717]]\r\nfemale\r\n"
+    ],
+    [
+      0.013323,
+      "\u001b]0;sudarshan@sudarshan-desktop: ~/dev/go/src/github.com/sudarshan-reddy/genderserver\u0007\u001b[01;32msudarshan@sudarshan-desktop\u001b[00m:\u001b[01;34m~/dev/go/src/github.com/sudarshan-reddy/genderserver \r\u001b[00m$ "
+    ]
+  ]
+}
