@@ -130,20 +130,17 @@
 
 +++
 
-<script src="https://asciinema.org/a/kVDQ7RhcMYnNrKblwjYldgUCe.js" id="asciicast-kVDQ7RhcMYnNrKblwjYldgUCe" async data-autoplay="true"></script>
+[![demo](https://asciinema.org/a/kVDQ7RhcMYnNrKblwjYldgUCe.png)](https://asciinema.org/a/kVDQ7RhcMYnNrKblwjYldgUCe?autoplay=1)
 
 +++
 
 ---
 
-## <span style="font-family:Rockitt; font-weight:bold">Things to take note</span>
+## <span style="font-family:Rockitt; font-weight:bold">Some useful points</span>
 
-
-<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Keras is a great library for beginners</span> 
-</br>
-<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Tensorflow has bindings for both Go and Python</span> 
-</br>
-<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Tensorflow graphs are language agnostic</span> 
+ - Keras is a great library for beginners |
+ - Tensorflow has bindings for Go and Python |
+ - Tensorflow graphs are language agnostic |
 
 ---
 
