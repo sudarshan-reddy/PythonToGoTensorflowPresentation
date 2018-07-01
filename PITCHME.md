@@ -199,32 +199,9 @@
 
 <span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Copy the graph folder to a common location</span> 
 
-+++
-
-<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Load the saved model that we trained with Keras and Tensorflow</span>
-
-```go
-    model, err := tf.LoadSavedModel("forGo", []string{"tags"}, nil)
-	if err != nil {
-		log.Fatal(err)
-	}
-```
-
-+++
-
-<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">And run the call `Exec` on the model to make the prediction</span>
-
-```go
-    result, err := model.Session.Run(
-		map[tf.Output]*tf.Tensor{
-			model.Graph.Operation("input_1").Output(0): img,
-		},
-		[]tf.Output{
-			model.Graph.Operation("inferenceLayer/Softmax").Output(0),
-		},
-		nil,
-	)
-```
++++?code=src/main.go&lang=golang&title=Source: Golang Code
+@[16-16](Load the saved graph like so)
+@[32-40](The following code runs the decoder for the saved model)
 
 <span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Note the explicit declaration of entry and exit layers</span>
 
