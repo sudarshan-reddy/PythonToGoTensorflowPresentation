@@ -32,7 +32,7 @@
 
 +++
 
-[!twin](assets/after.png)
+![twin](assets/after.png)
 
 
 ---
