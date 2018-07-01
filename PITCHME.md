@@ -5,14 +5,10 @@
 
 ## <span style="font-family:Rockitt; font-weight:bold"> Why is Python good?</span>
 
-<br>
-<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Pseudo code like syntax</span> 
-<br>
-<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Doesn't need too much parallelism (GPU)</span> 
-<br>
-<span class="fragment" data-fragment-index="2" style="font-family:Hattori Hanzo;">Libraries</span> 
-<br>
-<span class="fragment" data-fragment-index="4" style="font-family:Hattori Hanzo;">Community</span>  
+  - Pseudo code like syntax 
+  - Doesn't need too much parallelism | 
+  - Libraries |
+  - Community |
 
 ---
 
@@ -20,9 +16,9 @@
 
 ![before](assets/before.png)
 
----
++++
 
-![after](assets/after.png)
+![after](assets/after1.png)
 
 --- 
 
@@ -34,6 +30,10 @@
 <span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Predict with Go</span> 
 <br>
 
++++
+
+[!twin](assets/after.png)
+
 
 ---
 
@@ -43,13 +43,11 @@
 
 ## <span style="font-family:Rockitt; font-weight:bold">Why Go is good?</span>
 
-<br>
-<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Light weight</span> 
-<br>
-<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Compiled Binary makes deployment a breeze</span> 
-<br>
-<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Faster if you want to put your predictions into a webserver</span> 
-<br>
+
+ - Light weight 
+ - Compiled Binary makes deployment easy | 
+ - Better performance | 
+ - Easy Concurrency has more applications on the predictor side |
 
 ---
 
