@@ -156,40 +156,11 @@
  - Input Layer name | 
  - Inference Layer name |
 
-+++
 
-<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Setting the Tensorflow session to Keras enables us to use a tag when saving the graph</span> 
-
-```python
-    import tensorflow as tf
-    from keras import backend as K
-    sess = tf.Session()
-    K.set_session(sess)
-```
-+++
-
-<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">My model is a finetune of pretrained ResNet50 weights. The input layer is `input_1`</span> 
-    
-+++
-
-<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Name the inference layer</span> 
-```python
-    x = Dense(len(classes), activation="softmax", name="inferenceLayer")(last)
-```
-
-+++
-
-
-<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">After training, save the model with a tag</span> 
-
-```python
-    builder = tf.saved_model.builder.SavedModelBuilder("forGo")
-    builder.add_meta_graph_and_variables(sess, ["tags"])
-    builder.save()
-    sess.close()
-```
-
-+++
++++?code=src/train.py&lang=python&title=Source: Python Code
+@[7-11](Plug Tensorflow session into Keras)
+@[25-25](Name the exit inference layer)
+@[49-52](Save the graph after training and close session)
 
 ---
 
@@ -198,7 +169,6 @@
 +++
 
 +++?code=src/main.go&lang=golang&title=Source: Golang Code
-@[1, 3-6]
 @[16-16](Load the saved graph like so)
 @[32-40](The following code runs the decoder for the saved model)
 
