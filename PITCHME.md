@@ -150,7 +150,7 @@
 +++
 
 
-## <span style="font-family:Rockitt; font-weight:bold">Tensorflow for Go has three pre-requisites to read a model/graph</span>
+#### <span style="font-family:Rockitt; font-weight:bold">Tensorflow for Go has three pre-requisites to read a model/graph</span>
 
  - Tag Name |
  - Input Layer name | 
