@@ -149,16 +149,12 @@
 
 +++
 
-<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Tensorflow for Go expects three extra parameters from a traditional Keras TF model</span> 
 
-+++
+## <span style="font-family:Rockitt; font-weight:bold">Tensorflow for Go has three pre-requisites to read a model/graph</span>
 
-<br>
-<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Tag Name</span> 
-<br>
-<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Input layer name</span> 
-<br>
-<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Inference layer name</span> 
+ - Tag Name |
+ - Input Layer name | 
+ - Inference Layer name |
 
 +++
 
