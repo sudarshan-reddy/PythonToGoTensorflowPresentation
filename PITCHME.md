@@ -197,13 +197,11 @@
 
 +++
 
-<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Copy the graph folder to a common location</span> 
-
 +++?code=src/main.go&lang=golang&title=Source: Golang Code
+@[1, 3-6]
 @[16-16](Load the saved graph like so)
 @[32-40](The following code runs the decoder for the saved model)
 
-<span class="fragment" data-fragment-index="1" style="font-family:Hattori Hanzo;">Note the explicit declaration of entry and exit layers</span>
 
 +++
 
